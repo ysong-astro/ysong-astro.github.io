@@ -47,14 +47,56 @@
 						<div class="row">
 							<div class="col-8 col-12-small">
 								<form method="POST" action="https://formspree.io/mqkyoeyw">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
-									<ul class="actions" >
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
+ 									 <label>
+   										 Your email:
+    									<input type="text" name="_replyto">
+  									</label>
+  									<label>
+   										 Your message:
+    									<textarea name="message"></textarea>
+									</label>
+									
+									<style> 
+										button{font-family: 'Source Sans Pro', Helvetica, sans-serif;
+										font-size: 12pt;
+										font-weight: 400;-moz-appearance: none;
+										-webkit-appearance: none;
+										-ms-appearance: none;
+										appearance: none;
+										-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+										-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+										-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+										transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+										background-color: transparent;
+										border-radius: 0.35em;
+										border: solid 3px #efefef;
+										color: #787878 !important;
+										cursor: pointer;
+										display: inline-block;
+										font-weight: 400;
+										height: 3.15em;
+										height: calc(2.75em + 6px);
+										line-height: 2.75em;
+										min-width: 10em;
+										padding: 0 1.5em;
+										text-align: center;
+										text-decoration: none;
+										white-space: nowrap;}
+											
+										button:hover{
+											border-color: #49bf9d;
+											color: #49bf9d !important;
+										}
+										
+										button:active {
+											background-color: rgba(73, 191, 157, 0.1);
+											border-color: #49bf9d;
+											color: #49bf9d !important;
+										}
+										
+									</style>
+
+  									<button type="submit">Send Message</button>
 								</form>
 							</div>
 							<div class="col-4 col-12-small">
