@@ -159,6 +159,7 @@ input, select, textarea {
 	h3 {
 		font-size: 1.25em;
 		line-height: 1.5em;
+		display: inline-block;
 	}
 
 	h4 {
@@ -2124,6 +2125,15 @@ input, select, textarea {
 				border-radius: 100%;
 				width: 100%;
 			}
+	
+		span {
+    		transition:transform 0.25s ease;
+			}
+
+		span:hover {
+    		-webkit-transform:scale(2.0); /* or some other value */
+    		transform:scale(2.0);
+			}
 
 /* List */
 
@@ -2186,6 +2196,13 @@ input, select, textarea {
 			ul.icons li .icon:before {
 				font-size: 1.5em;
 			}
+
+/*list*/
+	ul.c {list-style-type: square;
+			color: #3D3C3C;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-size: 12pt;
+		    font-weight: 400;}
 
 /* Labeled Icons */
 
@@ -2530,6 +2547,51 @@ input, select, textarea {
 			cursor: default;
 		}
 
+/* Collapsibles*/
+	.collapsible {
+ 		background-color: lightgrey;
+  		color:grey;
+ 		cursor: pointer;
+  		padding: 18px;
+  		width: 100%;
+  		border: thin;
+		border-color: #777;
+  		text-align: left;
+  		outline: none;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 14pt;
+		font-weight: 400;
+		}
+
+	.active, .collapsible:hover {
+  		background-color: #5cc6a7;
+		}
+
+	.collapsible:after {
+  		content: '\002B';
+  		color: grey;
+  		font-weight: bold;
+  		float: right;
+ 		 margin-left: 5px;
+		}
+
+	.active:after {
+  		content: "\2212";
+		}
+
+	.content {
+		color: #3D3C3C;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 12pt;
+		font-weight: 400;
+		line-height: 1.75em;
+ 		padding: 0 18px;
+ 		max-height: 0;
+  		overflow: hidden;
+  		transition: max-height 0.2s ease-out;
+  		background-color: #fff;
+		}
+
 /* Work Item */
 
 	.work-item {
@@ -2619,7 +2681,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 12em;
 		}
 
 /* Footer */
