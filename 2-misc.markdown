@@ -9,7 +9,7 @@ equally important things.
   <img src="{{ '/assets/fox_iram.jpg' | relative_url }}" alt="Nothing to see here." style="float: left; width: 780px; height: 800px; border:4px solid #ddd;; border-radius: 5px; margin-right: 40px; margin-bottom: 9px; object-fit: cover;">
   
 
-  <p> A gender reminder from an experienced observer to come on outside between shifts. </p>
+  <p> A gentle reminder from an experienced observer to come on outside between shifts. </p>
 
   <div style="clear: both;"></div>
 </div>
