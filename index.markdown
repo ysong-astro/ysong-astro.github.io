@@ -20,4 +20,4 @@ layout: home
 
 
 > <b>News</b> \
-> &#127775;  <a href="https://www.eso.org/sci/meetings/2027/galmeet.html" target="_blank"> 2027 ESO workshop on galaxy interaction & mergers - pre-registration <b> OPEN </b>! </a> 
+> &#127775;  <a href="https://www.eso.org/sci/meetings/2027/galmeet.html" target="_blank"> 2027 ESO workshop on galaxy interaction & mergers -  <b> registration OPEN </b>! </a> 
